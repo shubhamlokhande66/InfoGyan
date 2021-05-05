@@ -1,0 +1,28 @@
+#myVideo{
+    width: 102.2% ! important;
+    height: 119%   !important;
+    object-fit: fill;
+    margin-top: -7.7em;
+margin-left:-44em ;
+position: absolute;
+}
+.Appbar{
+    height: 4em;
+}
+.Shubham{
+    margin-left: 20em;
+}
+.namehome
+{
+    position: absolute;
+    z-index: 1;
+   color:deeppink;
+   margin-top: 20em;
+   margin-left: 20em;
+   align-content: center;
+
+}
+.name{
+    font-size: 4em;
+    font-family: cursive;
+}
