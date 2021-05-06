@@ -22,10 +22,8 @@ export default function Home() {
                 </video>
             </div>
 
-
         </Fragment>
     )
-
-
-
 }
+
+
