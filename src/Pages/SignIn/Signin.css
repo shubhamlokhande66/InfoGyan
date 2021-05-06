@@ -1,0 +1,39 @@
+.inputform{
+    border: rgb(223, 223, 223) solid 1px;
+    border-radius: 5px;
+    height: 20em;
+    width: 30em;
+    margin-left: 25em;
+    margin-top: 5em;
+    box-shadow: 0px 0px 5px 1px;  
+}
+.emailinput{
+    
+    margin-top: 6em;
+}
+.Passwordinput{
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-device-width: 320px) and (max-device-width: 960px) {
+.inputform{
+    width: 18em;
+    margin-left: 2em;
+    height: 17em;
+    margin-top: 10em;
+}
+
+
+}
