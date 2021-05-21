@@ -12,7 +12,7 @@
     width: 8em;
 }
 .Jobsimagetext{
-    margin-left: 10px;
+    margin-left: 33px;
 }
 .Jobsimagetextdiv{
     height: 9em;
@@ -38,8 +38,11 @@
     width: 8em;
 }
 .coursesimagetext{
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: -10px;
+}
+.techimagetext{
+    margin-left: 30px;
 }
 .techimage{
     width: 8em;
@@ -86,4 +89,14 @@
     background-color: mintcream;
      width: 8em;
     height: 9em;
+}
+.jobsdiv{
+    margin-left: 1em;
+}
+.jobsdivnav{
+    margin-left: 2.5em;
+
+}
+.jobsdivtech{
+    margin-left: 2em;
 }

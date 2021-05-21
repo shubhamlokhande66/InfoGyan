@@ -2,6 +2,7 @@
     width: 72em;
     position: absolute;
     margin-top: -35em;
+    margin-left: 214px;
 }
 .Webphoto{
 margin-right: 60em;
@@ -19,6 +20,6 @@ margin-right: 60em;
     margin-left: 5em;
     font-weight: 900;
     font-size: 3em;
-color: orangered;
+color: initial;
 
 }
