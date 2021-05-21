@@ -6,3 +6,21 @@
 .logoImage{
     width: 4em;
 }
+.Youtubegif{
+    width: 4em;
+    position: absolute;
+    margin-left: 50em;
+ cursor: pointer;
+}
+.facebookgif{
+    width: 3.7em;
+    position: absolute;
+    margin-left: 57em;
+
+}
+.instagif{
+    width: 3.7em;
+    position: absolute;
+    margin-left: 64em
+
+}

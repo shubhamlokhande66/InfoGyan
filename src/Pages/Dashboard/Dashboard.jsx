@@ -13,9 +13,11 @@ export default function
             <Sidebar/>
 <div className="Webphoto">
     
-    <img className="Webphotoi" src={Webphoto}>
-
-    </img>
+    <img className="Webphotoi" src={Webphoto}/>
+    <div>
+        <h2 className="quotes">"The road to success <br /> and the road to failure <br /> are almost exactly the same."</h2>
+        <h1 className="Name">Welcome <br/> to <br/>Shubh InfoTech</h1>
+    </div>
 </div>
         </Fragment>
     )

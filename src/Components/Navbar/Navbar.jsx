@@ -8,7 +8,10 @@ import InputBase from '@material-ui/core/InputBase';
 import SearchIcon from '@material-ui/icons/Search';
 import Logo from "../../Image/Logo new.png"
 import "./Navbar.css"
-// import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import YoutubeGif from "../../Image/icons8-youtube.gif";
+import FacebookGif from "../../Image/icons8-facebook-circled.gif";
+import InstaGif from "../../Image/icons8-instagram.gif"
+import { BrowserRouter as Router, Switch, Route, Link ,useHistory} from "react-router-dom";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -86,32 +89,21 @@ const useStyles = makeStyles((theme) => ({
 
 export default function PrimarySearchAppBar() {
   const classes = useStyles();
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
-  const isMenuOpen = Boolean(anchorEl);
-  const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
+  
 
-  const handleProfileMenuOpen = (event) => {
-    setAnchorEl(event.currentTarget);
+  const HandleYoutube = () => {
+    window.location.href = "https://www.youtube.com/channel/UCOfj-QsVDrHwbGmDXY2g0Rg";
   };
 
-  const handleMobileMenuClose = () => {
-    setMobileMoreAnchorEl(null);
-  };
 
-  const handleMenuClose = () => {
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
 
-  const handleMobileMenuOpen = (event) => {
-    setMobileMoreAnchorEl(event.currentTarget);
-  };
+
 
 
 
   return (
+    <Router>
     <div className={classes.grow}>
       <AppBar position="static" className={classes.color}>
         <Toolbar>
@@ -133,8 +125,12 @@ export default function PrimarySearchAppBar() {
             />
           </div>
           <div className={classes.grow} /> 
+          <img className="Youtubegif" src={YoutubeGif} onClick={() => HandleYoutube()}/>
+          <img className="facebookgif" src={FacebookGif}/>
+          <img className="instagif" src={InstaGif}/>
         </Toolbar>
       </AppBar>
     </div>
+    </Router>
   );
 }

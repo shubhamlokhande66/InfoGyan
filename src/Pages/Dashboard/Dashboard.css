@@ -6,3 +6,19 @@
 .Webphoto{
 margin-right: 60em;
 }
+.quotes{
+    z-index: 5;
+    position: absolute;
+    margin-top: -22em;
+    margin-left: 10em;
+}
+.Name{
+    z-index: 9;
+    position: absolute;
+    margin-top: -8em;
+    margin-left: 5em;
+    font-weight: 900;
+    font-size: 3em;
+color: orangered;
+
+}

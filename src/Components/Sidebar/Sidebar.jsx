@@ -40,6 +40,11 @@ export default function Drawer() {
                     <div className="techimagetextdiv">
                         <img className="techimage" src={TechnoImage} alt="" />
                         <h2 className="techimagetext" >Tech.</h2>
+                        <div className="techshover" >
+                            <div><Link to="./navbar"><h3>Mobile</h3></Link></div>
+                            <div><Link to="./navbar"><h3>Gadets</h3> </Link></div>
+
+                        </div>
                     </div>
                 </div>
 
