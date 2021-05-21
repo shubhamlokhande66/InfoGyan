@@ -3,7 +3,9 @@
     margin-top: 2em;
     margin-left: 2em;
 }
-.Jobsimagetextdiv:hover{
+.Jobsimagetextdiv:hover .jobshover{
+    z-index: 5;
+    display : block;
     color :brown;
 }
 .Jobsimage{
@@ -26,7 +28,9 @@
     border: rgb(73, 69, 69) solid 2px;
     box-shadow: 4px 2px 9px 1px;
 }
-.coursesimagetextdiv:hover{
+.coursesimagetextdiv:hover .coursesshover{
+    
+    display: block;
     color :brown;
 
 }
@@ -36,7 +40,40 @@
 .coursesimagetext{
     margin-left: 10px;
     margin-top: -10px;
-    
+}
+.techimage{
+    width: 8em;
+    margin-top: 25px;
 
+}
+.techimagetextdiv{
+    width: 8em;
+    height: 9em;
+    margin-top: 3em;
+    border: rgb(73, 69, 69) solid 2px;
+    box-shadow: 4px 2px 9px 1px;
+}
+.techimagetextdiv:hover{
+    color :brown;
+
+}
+.jobshover{
+  display: none;
+    position: absolute;
+    margin-top: -147px;
+    margin-left: px;
+    background-color: mintcream;
+     width: 8em;
+    height: 9em; 
+    
+}
+.coursesshover{
+    display: none;
+    position: absolute;
+    margin-top: -142px;
+    margin-left: px;
+    background-color: mintcream;
+     width: 8em;
+    height: 9em; 
 
 }
