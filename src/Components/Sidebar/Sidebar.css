@@ -1,0 +1,42 @@
+.drawerContainer{
+    width: 5em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.Jobsimagetextdiv:hover{
+    color :brown;
+}
+.Jobsimage{
+    width: 8em;
+}
+.Jobsimagetext{
+    margin-left: 10px;
+}
+.Jobsimagetextdiv{
+    height: 9em;
+    width: 8em;
+    border: rgb(73, 69, 69) solid 2px;
+    box-shadow: 4px 2px 9px 1px;
+
+}
+.coursesimagetextdiv{
+    width: 8em;
+    height: 9em;
+    margin-top: 3em;
+    border: rgb(73, 69, 69) solid 2px;
+    box-shadow: 4px 2px 9px 1px;
+}
+.coursesimagetextdiv:hover{
+    color :brown;
+
+}
+.coursesimage{
+    width: 8em;
+}
+.coursesimagetext{
+    margin-left: 10px;
+    margin-top: -10px;
+    
+
+
+}
